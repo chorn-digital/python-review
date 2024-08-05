@@ -1,0 +1,5 @@
+language: python
+jobs:
+  include:
+    - stage: run
+      script: python game/win.py
